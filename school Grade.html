@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Database</title>
+</head>
+<body>
+    <h2>Student Grade Database</h2>
+    <form id="GradeForm">
+        <label for="">StudentName: <input type="text" id="StudentName" name="studentname" required></label><br><br>
+        <label for="">Mathematics: <input type="number" id="mathematics" name="mathematics" min="0" max="100"  required></label><br><br>
+        <label for="">English: <input type="number" id="English" name="English" min="0" max="100" required></label><br><br>
+        <label for="">Physics: <input type="number" id="Physics" name="Physics" min="0" max="100" required></label><br><br>
+        <label for="">Chemistry: <input type="number" id="Chemistry" name="Chemistry" min="0" max="100" required></label><br><br>
+        <label for="">Biology: <input type="number" id="biology" name="biology" min="0" max="100" required></label><br><br>
+        <label for="">History: <input type="number" id="history" name="history" min="0" max="100" required></label><br><br>
+        <label for="">Computer: <input type="number" id="Computer" name="Computer" min="0" max="100" required></label><br><br>
+        <button type="submit">submit</button>
+    </form>
+    <hr>
+    <div id="gradeTable"></div>
+    <script>
+        document.getElementById("gradeForm").addEventListener("submit", function(event) {event.preventDefault(); 
+            var studentname = 
+            document.getElementById("studentName"). value;
+        var Mathematics = 
+        document.getElementById() })
+    </script>
+</body>
+</html>
